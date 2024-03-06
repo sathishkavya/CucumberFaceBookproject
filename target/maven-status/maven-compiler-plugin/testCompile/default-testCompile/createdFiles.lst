@@ -1,0 +1,7 @@
+com\facebook\base\function\Base.class
+org\facebook\AjioMutipleTypes.class
+org\facebook\FaceBookCreat.class
+org\facebook\BrokenLink.class
+com\facebook\loacators\FaceBookLocator.class
+org\facebook\TestRunnerFacebook.class
+org\facebook\Hooks.class

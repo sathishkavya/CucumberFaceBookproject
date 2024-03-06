@@ -1,0 +1,264 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Face Book Launching Function",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3141000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the FaceBook \"https://www.facebook.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com/\"",
+                  "offset": 20
+                }
+              ],
+              "location": "org.facebook.FaceBookCreat.launch_the_face_book(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-05T12:42:30.550Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11978000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.facebook.Hooks.launching(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Create a face book account",
+        "description": "",
+        "id": "face-book-account-creation;create-a-face-book-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 413000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.facebook.Hooks.closing(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 281000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on create new account",
+            "match": {
+              "location": "org.facebook.FaceBookCreat.user_click_on_create_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1646000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter the first name \"SATHISH\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SATHISH\"",
+                  "offset": 26
+                }
+              ],
+              "location": "org.facebook.FaceBookCreat.user_enter_the_first_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1699000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter the Surname \"T\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"T\"",
+                  "offset": 23
+                }
+              ],
+              "location": "org.facebook.FaceBookCreat.user_enter_the_surname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 346000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter the mobile or email address \"9715565652\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9715565652\"",
+                  "offset": 39
+                }
+              ],
+              "location": "org.facebook.FaceBookCreat.user_enter_the_mobile_or_email_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter the password \"1234564\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234564\"",
+                  "offset": 24
+                }
+              ],
+              "location": "org.facebook.FaceBookCreat.user_enter_the_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 475000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User select the date \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20\"",
+                  "offset": 21
+                }
+              ],
+              "location": "org.facebook.FaceBookCreat.user_select_the_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 337000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User select the month \"Feb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Feb\"",
+                  "offset": 22
+                }
+              ],
+              "location": "org.facebook.FaceBookCreat.user_select_the_month(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 394000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select the year \"1998\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1998\"",
+                  "offset": 21
+                }
+              ],
+              "location": "org.facebook.FaceBookCreat.user_select_the_year(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on gender \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 21
+                }
+              ],
+              "location": "org.facebook.FaceBookCreat.user_click_on_gender(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2245000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click the signup button",
+            "match": {
+              "location": "org.facebook.FaceBookCreat.user_click_the_signup_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Validate the new account \"SATHISH\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SATHISH\"",
+                  "offset": 25
+                }
+              ],
+              "location": "org.facebook.FaceBookCreat.validate_the_new_account(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NewAccount"
+          }
+        ]
+      }
+    ],
+    "name": "Face Book Account Creation",
+    "description": "",
+    "id": "face-book-account-creation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/facebook.feature",
+    "tags": []
+  }
+]
